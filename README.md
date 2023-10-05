@@ -26,5 +26,29 @@
 ## Работа с приложением
 Администратор запускает сервер (файл `Server`), указывая его адрес и порт, который он будет слушать.
 
-![Class diagram](/img/server01.png "Class diagram")
+![Administrator screen](/img/server01.png "Administrator screen")
 
+К серверу подключаются пользователи (в том числе и сам Администратор может выступать в двух ролях), при помощи клиентской части (файл `Client`), работают с программой:
+
+![First client screen](/img/client01.png "First client screen")
+
+![Second client screen](/img/client02.png "Second client screen")
+
+
+
+Отключаются от сервера:
+
+![First client screen](/img/client04.png "First client screen")
+
+![Second client screen](/img/client03.png "Second client screen")
+
+![Administrator screen](/img/server02.png "Administrator screen")
+
+Администратор останавливает сервер, завершив работу приложения.
+
+## Возможные улучшения
+Подключение приложения к базе данных на сервере для регистрации/авторизации пользователей, а также хранения истории сообщений.
+Переход в UI от JFrame к JavaFX, или связке HTML, CSS, Typescript.
+Или даже реализация на другом языке, но это будет уже совсем другая история…
+
+![Class diagram from future](/img/BigScreen.png "Class diagram from future")
